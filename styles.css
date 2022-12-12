@@ -1,0 +1,163 @@
+*
+{
+   
+    
+    margin: 0;
+    padding: 0;
+}
+
+.hero
+{
+   width:100%;
+   height:100vh;
+   background-image: linear-gradient(rgba(248, 249, 252, 0.253),rgba(16, 16, 37, 0));
+   position:relative;
+   padding: 0 5%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+}
+.videoback
+{
+    position: absolute;
+    scale:70%;
+    z-index:-1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media(min-aspect-ratio:16/9)
+{
+    .back-video{
+        width: 100%;
+        height:auto;
+    }
+}
+@media(max-aspect-ratio:16/9)
+{
+    .back-video{
+        width: auto;
+        height:100%;
+    }
+}
+
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    width: 34%;
+    height: 730px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    margin-right:850px ;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .contact-form .input-box input,
+  .contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  
+  .contact-form .input-box input:focus ~ span,
+  .contact-form .input-box textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  .contact-form .input-box input[type="submit"]
+  {
+    width: 100%;
+    background: #00bcd4;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #00bcd4;
+    transition: 0.5s;
+  }
+  
+  .contact-form .input-box input[type="submit"]:hover
+  {
+    background: #FFF;
+    color: #00bcd4;
+  }
+  
+  @media (max-width: 991px) {
+
+    
+    .row {
+      flex-direction: column;
+    }
+ 
+    .contact-form {
+      width: 100%;
+    }
+  }
+
+.contact-form h2 span
+{
+    color: #00bcd4;
+}
+.check
+{
+    color: #333;
+    color: #1f2020;
+    font-family: 'Good Times Rg',sans-serif ;
+    font-weight: 700;
+}
+
+.footer {
+    width:100%;
+    height:200px;
+   
+    color: #c22424;
+    background-color: #1f2020;
+    margin-top: 40px;
+    padding-bottom: 60px;
+
+}
+.footer h1{
+    margin-bottom: 50px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(6, 143, 255);
+}
+.footer p{
+    font-weight: 600;
+    text-align: center;
+    color: snow;
+}
